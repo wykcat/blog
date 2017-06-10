@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="UTF-8">
+		<title>日常文摘</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/page.css" />
+	</head>
+	<body>
+		<div class="nav">
+			<div class="nav-lt fl">
+				<a href="" class="hvr-undcen">日常文摘</a>
+			</div>
+			<div class="nav-rt fr">
+				<a class="hvr-tobottom" href="index.html">首页</a>
+				<a class="hvr-tobottom" href="nor-tak.html">闲言碎语</a>
+				<a class="hvr-tobottom" href="">日常文摘</a>
+				<a class="hvr-tobottom" href="han-get.html">随手一拍</a>
+				<a class="hvr-tobottom" href="per-int.html">个人介绍</a>
+			</div>
+		</div>
+		<div class="page-tit">
+			<h1 class="underline-up">日常文摘</h1>
+			<h4>wyk</h4>
+		</div>
+		<div class="content">
+			<ul>
+				<li class="article">
+					<a href="">
+						<h2>测试测试测试测试测试测试测试测试测试测试测试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试</h2>
+					    <div class="article-con">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试</div>
+					    <span class="hvr-buzz-out">Posted on 2017-3-22</span>
+					</a>
+				</li>
+				<li class="article">
+					<a href="">
+						<h2>测试测试测试测试测试测试测试</h2>
+					    <div class="article-con">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试</div>
+					    <span class="hvr-buzz-out">Posted on 2017-3-22</span>
+					</a>
+				</li>
+				<li class="article">
+					<a href="">
+						<h2>测试测试测试测试测试测试测试测试测试</h2>
+					    <div class="article-con">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试</div>
+					    <span class="hvr-buzz-out">Posted on 2017-3-22</span>
+					</a>
+				</li>
+				<li class="article">
+					<a href="">
+						<h2>测试测试测试测试测试测试测试测试测试</h2>
+					    <div class="article-con">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试</div>
+					    <span class="hvr-buzz-out">Posted on 2017-3-22</span>
+					</a>
+				</li>
+				<li class="article">
+					<a href="">
+						<h2>测试测试测试测试测试测试测试测试测试</h2>
+					    <div class="article-con">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试</div>
+					    <span class="hvr-buzz-out">Posted on 2017-3-22</span>
+					</a>
+				</li>
+				<li class="article">
+					<a href="">
+						<h2>测试测试测试测试测试测试测试测试测试</h2>
+					    <div class="article-con">测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试试测试</div>
+					    <span class="hvr-buzz-out">Posted on 2017-3-22</span>
+					</a>
+				</li>
+			</ul>
+			
+			<div class="pager clearfix">
+				<div class="prev fl"><a class="hvr-bgleft">←&nbsp;&nbsp;&nbsp;previous</a></div>
+				<div class="next fr"><a class="hvr-bgright">next&nbsp;&nbsp;&nbsp;→</a></div>
+			</div>
+			<div id="back-top">
+				<a href="#top"></a>
+			</div>
+		</div>
+	
+	</body>
+	<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(window).scroll(function() {
+				if($(window).scrollTop()>420){
+					$("#back-top").show();
+					$(".nav").css("position","fixed");
+				}else{
+					$("#back-top").hide();
+					$(".nav").css("position","static");
+				}
+           });
+		})
+	</script>
+</html>

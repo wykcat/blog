@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="UTF-8">
+		<title>个人介绍</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/page.css" />
+	</head>
+	<body>
+		<div class="nav red">
+			<div class="nav-lt fl">
+				<a href="" class="hvr-undcen">个人介绍</a>
+			</div>
+			<div class="nav-rt fr">
+				<a class="hvr-tobottom" href="index.html">首页</a>
+				<a class="hvr-tobottom" href="nor-tak.html">闲言碎语</a>
+				<a class="hvr-tobottom" href="dai-dig.html">日常文摘</a>
+				<a class="hvr-tobottom" href="han-get.html">随手一拍</a>
+				<a class="hvr-tobottom" href="">个人介绍</a>
+			</div>
+		</div>
+		<div class="page-tit red">
+			<h1 class="underline-up">个人介绍</h1>
+			<h4>wyk</h4>
+		</div>
+		<div class="content">
+			<p><img src="img/dogicon.png"/></p>
+			<div class="per">
+				<p>我是王艺凯，一个前端工程师。<a href="" download="">HR请点击这里下载我的简历</a></p>
+			<h3>最近</h3>
+			<ul>
+				<li>2017-04 离职、从城中村离开，期盼更好的未来。</li>
+				<li>2015-01 入坑前端，学习之路漫漫长。</li>
+			</ul>
+			<h3>联系</h3>
+			<ul>
+				<li><a href="tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=358380652&website=www.oicqzone.com">企鹅号</a></li>
+				<li><a href="https://www.zhihu.com/people/wang-yi-kai-31-24/activities">知乎@ 字母Z</a></li>
+			    <li><a href="https://github.com/wykcat/test">github</a></li>
+			</ul>
+			
+			</div>
+		
+			<div id="back-top">
+				<a href="#top"></a>
+			</div>
+		</div>
+	
+	</body>
+	<script src="js/jquery-1.9.1.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		$(function(){
+			$(window).scroll(function() {
+				if($(window).scrollTop()>420){
+					$("#back-top").show();
+					$(".nav").css("position","fixed");
+				}else{
+					$("#back-top").hide();
+					$(".nav").css("position","static");
+				}
+           });
+		})
+	</script>
+</html>
